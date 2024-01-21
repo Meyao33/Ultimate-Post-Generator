@@ -1,0 +1,25 @@
+html.wp-toolbar {
+	padding-top: 0px;
+}
+#adminmenu,
+#adminmenuback,
+#adminmenuwrap {
+	display: none;
+}
+
+#wpcontent,
+#wpfooter {
+	margin-left: 0;
+}
+#wpcontent {
+	background: #fff;
+	padding-left: 0;
+	height: 100vh;
+}
+textarea {
+	height: 52px;
+	overflow-y: hidden;
+}
+#wpfooter {
+	display: none;
+}

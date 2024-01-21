@@ -1,0 +1,71 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* file: admin/css/chat-interface.css */
+
+#upg-chat-app {
+	display: flex;
+	max-width: 1000px;
+	margin: 20px auto;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+}
+
+#upg-chat-sidebar {
+	flex: 0 0 250px;
+	border-right: 1px solid #ddd;
+	padding: 20px;
+	background-color: #fff;
+}
+
+#upg-chat-sidebar button {
+	display: block;
+	margin-bottom: 20px;
+}
+
+#upg-chat-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#upg-chat-list li {
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	cursor: pointer;
+}
+
+#upg-chat-list li:hover {
+	background-color: #f0f0f0;
+}
+
+#upg-chat-main {
+	flex: 1;
+	padding: 20px;
+}
+
+#upg-chat-messages {
+	height: 300px;
+	overflow-y: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+#upg-chat-input {
+	width: calc(100% - 90px);
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+}
+
+#upg-send-message {
+	width: 70px;
+	padding: 10px;
+	background-color: #0073aa;
+	border-color: #006799;
+	color: #fff;
+}
